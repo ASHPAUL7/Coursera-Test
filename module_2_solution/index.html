@@ -1,9 +1,280 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Assignment Solution for Module 2</title>
+<meta charset="utf-8">
+<title>Assignment for Module 2</title>
+<style>
+
+*{
+  box-sizing: border-box;
+  font-family: Helvetica,Arial,sans-serif;
+}
+
+
+@media (min-width: 992px) {
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  text-align: center;
+  margin: 20px 20px 30px 20px;
+}
+
+h2 {
+  margin: 0px -1px 10px 60%;
+  float: right;
+  border: 2px solid black;
+  padding: 2px 25px 2px 25px;
+  background-color: #ffd1ac;
+}
+
+h3 {
+  margin: 0px -1px 10px 10px;
+  float: right;
+  font-size: 20px;
+  background-color: #990000;
+  border: 2px solid black;
+  padding: 5px 44px 2px 44px;
+}
+
+h4 {
+  margin: 0px -1px 10px 10px;
+  float: right;
+  font-size: 20px;
+  background-color: #ffc501;
+  border: 2px solid black;
+  padding: 5px 42px 2px 42px;
+}
+
+
+#box1 {
+  background-color: gray;
+  width: 30%;
+  margin: 20px 0px 20px 20px;
+  border: 3px solid black;
+  float: left;
+}
+
+#box2 {
+  background-color: gray;
+  width: 30%;
+  margin: 20px 0px 20px 20px;
+  border: 3px solid black;
+  float: left;
+}
+
+#box3 {
+  background-color: gray;
+  width: 30%;
+  margin: 20px 0px 20px 20px;
+  border: 3px solid black;
+  float: left;
+}
+
+#content1{
+  padding: 10px 10px 0px 10px;
+  clear: right;
+}
+
+#content2{
+  padding: 10px 10px 0px 10px;
+  clear: right;
+}
+
+#content3{
+  padding: 10px 10px 0px 10px;
+  clear: right;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  text-align: center;
+  margin: 20px 20px 30px 20px;
+}
+
+h2 {
+  margin: 0px -1px 10px 60%;
+  float: right;
+  border: 2px solid black;
+  padding: 2px 25px 2px 25px;
+  background-color: #ffd1ac;
+}
+
+h3 {
+  margin: 0px -1px 10px 10px;
+  float: right;
+  font-size: 20px;
+  background-color: #990000;
+  border: 2px solid black;
+  padding: 5px 44px 2px 44px;
+}
+
+h4 {
+  margin: -1px -1px 10px 10px;
+  float: right;
+  font-size: 20px;
+  background-color: #ffc501;
+  border: 2px solid black;
+  padding: 5px 42px 2px 42px;
+}
+
+
+#box1 {
+  background-color: gray;
+  width: 46.5%;
+  margin: 20px 0px 20px 20px;
+  border: 3px solid black;
+  float: left;
+}
+
+#box2 {
+  background-color: gray;
+  width: 46.5%;
+  margin: 20px 0px 20px 20px;
+  border: 3px solid black;
+  float: left;
+}
+
+#box3 {
+  background-color: gray;
+  width: 95.5%;
+  margin: 20px 0px 20px 20px;
+  border: 3px solid black;
+  float: left;
+}
+
+#content1{
+  padding: 10px 10px 0px 10px;
+  clear: right;
+}
+
+#content2{
+  padding: 10px 10px 0px 10px;
+  clear: right;
+}
+
+#content3{
+  padding: 10px 10px 0px 10px;
+  clear: right;
+}
+
+}
+
+@media (max-width: 767px) {
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  text-align: center;
+  margin: 20px 20px 30px 20px;
+}
+
+h2 {
+  margin: 0px -1px 10px 60%;
+  float: right;
+  border: 2px solid black;
+  padding: 2px 25px 2px 25px;
+  background-color: #ffd1ac;
+}
+
+h3 {
+  margin: -1px -1px 10px 10px;
+  float: right;
+  font-size: 20px;
+  background-color: #990000;
+  border: 2px solid black;
+  padding: 5px 44px 2px 44px;
+}
+
+h4 {
+  margin: -1px -1px 10px 10px;
+  float: right;
+  font-size: 20px;
+  background-color: #ffc501;
+  border: 2px solid black;
+  padding: 5px 42px 2px 42px;
+}
+
+
+#box1 {
+  background-color: gray;
+  width: 85%;
+  margin: 20px 40px 20px 40px;
+  border: 3px solid black;
+  float: left;
+}
+
+#box2 {
+  background-color: gray;
+  width: 85%;
+  margin: 20px 40px 20px 40px;
+  border: 3px solid black;
+  float: left;
+}
+
+#box3 {
+  background-color: gray;
+  width: 85%;
+  margin: 20px 40px 20px 40px;
+  border: 3px solid black;
+  float: left;
+}
+
+#content1{
+  padding: 10px 10px 0px 10px;
+  clear: right;
+}
+
+#content2{
+  padding: 10px 10px 0px 10px;
+  clear: right;
+}
+
+#content3{
+  padding: 10px 10px 0px 10px;
+  clear: right;
+}
+
+}
+
+
+</style>
 </head>
 <body>
 <h1>Our Menu</h1>
+
+<div id='box1'>
+  <h2> Chicken </h2>
+  <p id='content1'>Lorem ipsum dolor sit amet, consevero sunt non, ratione earum dolores nihil! Consequuntur pariatur totam incidunt soluta expedita.
+  </p>
+</div>
+
+<div id='box2'>
+  <h3> Beef </h3>
+  <p id='content2'>Lorem ipsum dolor sit amet, consevero sunt non, ratione earum dolores nihil! Consequuntur pariatur totam incidunt soluta expedita.
+  </p>
+</div>
+
+<div id='box3'>
+  <h4> Sushi </h4>
+  <p id='content3'>Lorem ipsum dolor sit amet, consevero sunt non, ratione earum dolores nihil! Consequuntur pariatur totam incidunt soluta expedita.
+  </p>
+</div>
+
+
 </body>
 </html>
